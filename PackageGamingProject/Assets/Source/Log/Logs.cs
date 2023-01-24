@@ -8,6 +8,6 @@ public class Logs : MonoBehaviour
     [Conditional("DEBUG")]
     public static void Log(string text)
     {
-        UnityEngine.Debug.Log(text+text);
+        UnityEngine.Debug.Log(text);
     }
 }
